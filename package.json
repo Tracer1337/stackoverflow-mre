@@ -1,0 +1,19 @@
+{
+    "name": "meme-bros",
+    "version": "1.0.0",
+    "private": true,
+    "license": "MIT",
+    "workspaces": {
+      "packages": [
+        "my-package"
+      ],
+      "nohoist": [
+        "!(types)/react",
+        "**/react-dom",
+        "!(types)/react-native",
+        "**/react-native/**",
+        "**/react-native-web"
+      ]
+    }
+  }
+  
